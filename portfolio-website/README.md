@@ -1,70 +1,150 @@
-# Getting Started with Create React App
+# 🚀 Anuja Habib - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website showcasing my experience as a Software Engineer and Integration Specialist, built with React.js.
 
-## Available Scripts
+## 🌐 Live Demo
+Your portfolio will be available at: `https://YOUR_GITHUB_USERNAME.github.io/portfolio-website`
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+### 🎨 Modern Design
+- Beautiful gradient backgrounds and smooth animations
+- Fully responsive design for all devices
+- Professional typography and clean layouts
+- Interactive hover effects and transitions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📋 Sections
+- **Hero Section** - Eye-catching introduction with call-to-action buttons
+- **About** - Professional summary with key statistics
+- **Skills** - Technical skills organized by categories (Integration, Programming, Cloud, etc.)
+- **Experience** - Timeline-based work history with detailed achievements
+- **Certifications** - All 7+ Salesforce and MuleSoft certifications
+- **Projects** - Major projects including Uber Eats, General Motors, and Telecom solutions
+- **Contact** - Professional contact form and social links
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛠️ Technical Highlights
+- Built with React.js and modern JavaScript
+- Lucide React icons for consistent design
+- CSS Grid and Flexbox for responsive layouts
+- Smooth scrolling navigation
+- Form validation and interactive elements
 
-### `npm test`
+## 🚀 Deployment Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Step 1: Create GitHub Repository
+1. Go to [GitHub](https://github.com) and create a new repository
+2. Name it `portfolio-website` (or any name you prefer)
+3. Make it public
+4. Don't initialize with README (we already have one)
 
-### `npm run build`
+### Step 2: Update Configuration
+1. Open `package.json`
+2. Replace `YOUR_GITHUB_USERNAME` in the homepage field with your actual GitHub username:
+   ```json
+   "homepage": "https://yourusername.github.io/portfolio-website"
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Step 3: Connect to GitHub
+```bash
+# Add your GitHub repository as origin
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/portfolio-website.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Push to GitHub
+git branch -M main
+git push -u origin main
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Step 4: Deploy to GitHub Pages
+```bash
+# Build and deploy to GitHub Pages
+npm run deploy
+```
 
-### `npm run eject`
+### Step 5: Enable GitHub Pages
+1. Go to your repository on GitHub
+2. Click on "Settings"
+3. Scroll down to "Pages" in the left sidebar
+4. Under "Source", select "Deploy from a branch"
+5. Select "gh-pages" branch
+6. Click "Save"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Your website will be live at `https://yourusername.github.io/portfolio-website` in a few minutes!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Local Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_GITHUB_USERNAME/portfolio-website.git
 
-## Learn More
+# Navigate to project directory
+cd portfolio-website
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start development server
+npm start
+```
 
-### Code Splitting
+The website will open at `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 Customization
 
-### Analyzing the Bundle Size
+### Update Personal Information
+1. **Contact Details**: Edit `src/components/Contact.js`
+2. **Social Links**: Update links in `src/components/Header.js` and `src/components/Contact.js`
+3. **Experience**: Modify `src/components/Experience.js`
+4. **Projects**: Update `src/components/Projects.js`
+5. **Skills**: Edit `src/components/Skills.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Styling
+- Main styles are in `src/App.css`
+- Color scheme can be updated by changing CSS custom properties
+- Responsive breakpoints are defined at the bottom of `App.css`
 
-### Making a Progressive Web App
+## 📦 Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `npm start` - Runs the app in development mode
+- `npm run build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm run deploy` - Builds and deploys to GitHub Pages
 
-### Advanced Configuration
+## 🎯 Professional Highlights
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Experience
+- **Software Engineer** at Enigma Solutions LLP (Oct 2021 - Apr 2024)
+- **5+ Years** of experience in software development
+- **Enterprise Projects** for Uber Eats and General Motors
 
-### Deployment
+### Certifications
+- Salesforce Platform Developer 1
+- Salesforce Certified Administrator
+- MuleSoft Certified Associate & Developer Level 1
+- Salesforce Certified Agentforce Specialist
+- Double Star Ranger & Agentforce Champion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Technical Skills
+- **Integration**: MuleSoft, Salesforce, REST, SOAP APIs
+- **Programming**: Python, Apex, JavaScript, React.js
+- **Cloud**: Heroku, AWS, MuleSoft Anypoint Platform
+- **Database**: MySQL, Salesforce CRM
 
-### `npm run build` fails to minify
+## 📧 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Email**: anuja.habib@email.com
+- **Location**: Pune, India
+- **LinkedIn**: [Your LinkedIn Profile]
+- **GitHub**: [Your GitHub Profile]
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Built with ❤️ by Anuja Habib**
